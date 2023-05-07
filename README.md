@@ -24,7 +24,18 @@ To reproduce the experiments from the paper, follow these steps:
 
 1. Clone the repository:
 
+
+```bash
+git clone https://github.com/IULATERM-TRL-UPF/Hints-on-the-data-for-language-modeling/edit/main/README.md
+
+
 2. Install the required dependencies:
+
+To install the required dependencies, run the following command in your terminal:
+
+```bash
+pip install -r requirements.txt
+
 
 3. Preprocess the data:
 
