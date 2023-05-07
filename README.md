@@ -24,7 +24,6 @@ To reproduce the experiments from the paper, follow these steps:
 
 1. Clone the repository:
 
-
 ```
 git clone https://github.com/IULATERM-TRL-UPF/Hints-on-the-data-for-language-modeling/edit/main/README.md
 ```
@@ -44,12 +43,20 @@ To install the required dependencies, run the following command in your terminal
 pip install -r requirements.txt
 ```
 
-3. Preprocess the data:
-
-5. Train the language models:
+3. Train the language models:
 
 
 Note that `model_name` and `results_name` should be replaced with the name of the model and the results file, respectively.
+
+```
+./train_model.sh <path_train> <path_eval> <language>
+```
+
+4. Fine-Tuned POS-Tagging:
+
+```
+./train_pos_tagging.sh <path_train> <path_eval> <checkpoint_model> <path_output>
+```
 
 ## Contributing
 
