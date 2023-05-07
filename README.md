@@ -31,6 +31,13 @@ git clone https://github.com/IULATERM-TRL-UPF/Hints-on-the-data-for-language-mod
 
 2. Install the required dependencies:
 
+
+Create and activate a virtualenv environment 
+```
+python -m venv venv
+source venv/bin/activate
+```
+
 To install the required dependencies, run the following command in your terminal:
 
 ```
