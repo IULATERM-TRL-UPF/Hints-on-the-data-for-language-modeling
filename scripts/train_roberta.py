@@ -100,9 +100,9 @@ def train_language_model(train_path, eval_path, language):
 def main():
     # Create the ArgumentParser object and define the arguments
     parser = argparse.ArgumentParser(description='Language Model Training')
-    parser.add_argument('-i', '--input', help='Training data file path')
-    parser.add_argument('-e', '--evaluation', help='Evaluation data file path')
-    parser.add_argument('-l', '--language', help='Language used')
+    parser.add_argument('-train_file', '--input', help='Training data file path')
+    parser.add_argument('-dev_file', '--evaluation', help='Evaluation data file path')
+    parser.add_argument('-language', '--language', help='Language used')
 
     # Parse the command line arguments
     args = parser.parse_args()
